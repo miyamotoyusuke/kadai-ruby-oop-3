@@ -1,7 +1,7 @@
 require './animal'
 require './thinkable'
 class Human < Animal
-    include THINKABLE
+    include Thinkable
     
     attr_accessor :shumi
     def initialize(name, age, shumi)
